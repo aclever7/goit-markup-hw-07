@@ -20,7 +20,7 @@
 
   &:hover,
   :focus {
-    color: var(--active-color);
-    text-decoration-color: var(--active-color);
+    color: $activeColor;
+    text-decoration-color: $activeColor;
   }
 }

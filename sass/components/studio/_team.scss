@@ -65,8 +65,8 @@
 
   &:hover,
   :focus {
-    color: var(--white-color);
-    background-color: var(--active-color);
+    color: $whiteColor;
+    background-color: $activeColor;
   }
 }
 
