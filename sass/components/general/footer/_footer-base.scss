@@ -1,0 +1,21 @@
+.footer {
+  padding: 60px 0;
+  background-color: $darkBackgroundColor;
+}
+
+.footer__solid {
+  @include flexBaseline;
+}
+
+.footer__first-part {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer__logo-part {
+  color: $whiteColor;
+}

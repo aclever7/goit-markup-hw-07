@@ -1,0 +1,39 @@
+.principles__thumb {
+  padding: 30px 0;
+  @include flexJustifyCenter;
+  margin-bottom: 30px;
+  color: $mainTextColor;
+  background-color: $principlesIconBackground;
+  border-radius: $borderRadius-4x;
+}
+
+.principles__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.principles__items {
+  display: flex;
+  margin-left: -30px;
+}
+
+.principles__itm {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.principles__subtitle {
+  margin-bottom: 10px;
+  font-weight: $fontBold;
+  font-size: $size-14;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.principles__text {
+  font-size: $size-14;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $secondaryTextColor;
+}

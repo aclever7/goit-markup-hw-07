@@ -1,0 +1,9 @@
+.header {
+  height: 80px;
+  display: flex;
+  @include borderBottom($boxBorderColor);
+}
+
+.header-container {
+  @include flexSpaceCenter;
+}
