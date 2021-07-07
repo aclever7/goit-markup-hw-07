@@ -1,3 +1,8 @@
+.principles {
+  display: flex;
+  margin-left: -30px;
+}
+
 .principles__thumb {
   padding: 30px 0;
   @include flexJustifyCenter;
@@ -10,11 +15,6 @@
 .principles__icon {
   width: 70px;
   height: 70px;
-}
-
-.principles__items {
-  display: flex;
-  margin-left: -30px;
 }
 
 .principles__itm {

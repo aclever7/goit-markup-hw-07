@@ -57,6 +57,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  @include flexCenter;
   width: 200px;
   height: 50px;
   padding: 10px 28px;
@@ -70,7 +71,6 @@
   font-weight: $fontBold;
   font-size: $size-16;
   line-height: 1.87;
-  @include flexCenter;
   letter-spacing: 0.06em;
 }
 
